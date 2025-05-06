@@ -4,6 +4,7 @@ import os
 import sys
 import matplotlib.pyplot as plt
 import matplotlib
+matplotlib.use('TkAgg')
 import scipy.integrate as spi
 
 class ImageArea:
